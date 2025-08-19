@@ -1,0 +1,148 @@
+
+
+.parent-class{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color:rgb(247, 246, 244);
+    padding: 20px;
+    gap: 5%;
+}
+
+.parent-class  input{
+   height: 20px;
+    width: 150px;
+   border: 1px solid;
+   padding: 10px;
+   font-family: cursive;
+   border-radius: 30px;
+  
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  #23252e;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+.navbar-container a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-section{
+    height: 500px;
+    
+    background-color: #23252e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+.main-section h1{
+  font-size: 70px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.main-section h3{
+    color: #FFF4A3;
+    margin-top: 10px;
+}
+
+.main-section input{
+    
+    padding: 15px;
+    width:500px;
+    border-radius:23px;
+}
+
+.main-section a{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.second-sec{
+    background-color:#D9EEE1  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.style1{
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+   
+}
+
+.style2{
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    font-weight:1000;
+ 
+}
+
+.button1{
+    width: 200px;
+    padding: 15px;
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.button2{
+    width: 200px;
+    padding: 12px;
+    background-color:#FFF4A3;
+    color:black;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.button3{
+    width: 200px;
+    padding: 12px;
+    background-color:black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.button4{
+    width: 200px;
+    padding: 12px;
+    background-color:pink;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.buttons a{
+     text-decoration: none;
+     color: white;
+}
+
+.buttons .button2 a{
+    color: black;
+}
+
+.buttons .button4 a{
+    color: black;
+}
